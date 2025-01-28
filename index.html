@@ -1,11 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Adrian Y Basilio</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        nav {
+            background-color: orange;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+
+        }
+
+        nav a:hover {
+            color: lawngreen;
+            text-shadow: 1px 1px 2px black;
+        }
+
+        header {
+            background-image: url(https://i.etsystatic.com/32597141/r/il/e4e17c/3617175661/il_fullxfull.3617175661_97nv.jpg);
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-size: cover;
+        }
+
+        #caja-central {
+            text-align: center;
+        }
+
+        header h1 {
+            color: lawngreen;
+            text-shadow: 3px 3px 5px black;
+            font-size: 3em;
+        }
+
+        h2{
+            color: yellowgreen;
+        }
+
+        footer {
+            background-color: grey;
+            color: white;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        footer #caja-superior {
+            width: 100%;
+            text-align: center;
+            border-bottom:2px solid white ;
+            padding: 10px;
+        }
+        footer .caja-inferior {
+            width: 33%;
+            padding: 10px;
+            text-align: center;
+        }
+        #caja-central h2 {
+            color: white;
+            text-shadow: 3px 3px 5px black;
+        }
+        #quienes-somos {
+            background-color: lightblue;
+        }
+        .cliente img { width: 90%; border-radius: 50%;}
+        .cliente p { font-style: italic;}
+
+        footer a{
+            text-decoration: none;
+            color: white;
+        }
+
+        footer a:hover{
+            font-weight: bold;
+            text-decoration: underline;
+            color: black;
+        }
+
+    </style>
 </head>
+
 <body>
+    <header>
+        <div id="caja-central">
+            <h1>Gimnasio S2</h1>
+            <h2>Tu gimnasio de confianza</h2>
+        </div>
+    </header>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Quienes Somos</a>
+        <a href="#">Dónde estamos</a>
+        <a href="#">Contacto</a>
+    </nav>
+
     
 </body>
+
 </html>
